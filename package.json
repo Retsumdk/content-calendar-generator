@@ -1,0 +1,23 @@
+{
+  "name": "content-calendar-generator",
+  "version": "1.0.0",
+  "description": "Generate social media content calendars with posting schedules and topic suggestions",
+  "main": "src/index.ts",
+  "type": "module",
+  "bin": {
+    "content-calendar-generator": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "test": "bun test"
+  },
+  "keywords": [
+    "social-media",
+    "content",
+    "calendar",
+    "scheduler",
+    "automation"
+  ],
+  "author": "The BookMaster",
+  "license": "MIT"
+}
